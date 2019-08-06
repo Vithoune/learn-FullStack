@@ -13,4 +13,9 @@ that requests JSON data from server
 end note
 
 browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
-server-->browser: [{content: "HTML is easy", date: "2019-05-23T17:30:31.098Z"},
+server-->browser: [{content: "HTML is easy", date: "2019-05-23T17:30:31.098Z"}, ...]
+
+note over browser:
+browser executes the event handler
+that renders notes to display
+end note
